@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import { 
   Phone, 
@@ -40,38 +41,36 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-navy text-white">
+    <footer className="bg-dark-green text-white">
       <div className="container mx-auto px-4 py-16">
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
           {/* Company Info */}
           <div>
-            <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">QF</span>
-              </div>
-              <div>
-                <div className="font-bold text-xl">QuickFund</div>
-                <div className="text-sm text-teal">Capital</div>
-              </div>
+            <div className="flex items-center space-x-3 mb-6">
+              <img 
+                src="/lovable-uploads/146ed7e0-1423-4af5-a6b1-6be6225c0c3f.png" 
+                alt="Attivita Ricco Limited" 
+                className="h-12 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-gray-300 mb-6 text-sm leading-relaxed">
-              Empowering businesses with fast, accessible capital. Get approved 
+              Growing your dreams with fast, accessible capital. Get approved 
               in 12 hours and funded the same day.
             </p>
             
             {/* Contact Info */}
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-sm">
-                <Phone className="h-4 w-4 text-teal" />
-                <span>+1 (555) 123-4567</span>
+                <Phone className="h-4 w-4 text-light-green" />
+                <span>+254738810000</span>
               </div>
               <div className="flex items-center space-x-2 text-sm">
-                <Mail className="h-4 w-4 text-teal" />
-                <span>info@quickfundcapital.com</span>
+                <Mail className="h-4 w-4 text-light-green" />
+                <span>info@attivitaricco.com</span>
               </div>
               <div className="flex items-center space-x-2 text-sm">
-                <MapPin className="h-4 w-4 text-teal" />
-                <span>123 Financial District, NY 10038</span>
+                <MapPin className="h-4 w-4 text-light-green" />
+                <span>Nairobi, Kenya</span>
               </div>
             </div>
           </div>
@@ -84,7 +83,7 @@ const Footer = () => {
                 <li key={link.href}>
                   <Link 
                     to={link.href}
-                    className="text-gray-300 hover:text-teal transition-colors text-sm"
+                    className="text-gray-300 hover:text-light-green transition-colors text-sm"
                   >
                     {link.label}
                   </Link>
@@ -113,7 +112,7 @@ const Footer = () => {
                 <li key={link}>
                   <a 
                     href="#"
-                    className="text-gray-300 hover:text-teal transition-colors text-sm"
+                    className="text-gray-300 hover:text-light-green transition-colors text-sm"
                   >
                     {link}
                   </a>
@@ -129,11 +128,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2 text-xs text-gray-400">
                 <Award className="h-3 w-3" />
-                <span>BBB Accredited</span>
+                <span>Licensed Lender</span>
               </div>
               <div className="flex items-center space-x-2 text-xs text-gray-400">
                 <CheckCircle className="h-3 w-3" />
-                <span>FDIC Compliant</span>
+                <span>Compliant</span>
               </div>
             </div>
           </div>
@@ -143,26 +142,26 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex space-x-4 mb-4 md:mb-0">
-              <a href="#" className="text-gray-400 hover:text-teal transition-colors">
+              <a href="#" className="text-gray-400 hover:text-light-green transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-teal transition-colors">
+              <a href="#" className="text-gray-400 hover:text-light-green transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-teal transition-colors">
+              <a href="#" className="text-gray-400 hover:text-light-green transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-teal transition-colors">
+              <a href="#" className="text-gray-400 hover:text-light-green transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
             
             <div className="text-center md:text-right">
               <p className="text-sm text-gray-400">
-                © 2024 QuickFund Capital. All rights reserved.
+                © 2024 Attivita Ricco Limited. All rights reserved.
               </p>
               <p className="text-xs text-gray-500 mt-1">
-                Licensed lender in all 50 states. Equal Housing Lender.
+                Licensed lender. Growing Your Dreams.
               </p>
             </div>
           </div>

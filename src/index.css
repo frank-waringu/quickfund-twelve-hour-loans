@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,42 +10,40 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 220 40% 20%;
+    --foreground: 155 100% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 40% 20%;
+    --card-foreground: 155 100% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 40% 20%;
+    --popover-foreground: 155 100% 15%;
 
-    --primary: 221 83% 53%;
+    --primary: 155 100% 25%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 174 72% 56%;
+    --secondary: 75 65% 55%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 20% 96%;
-    --muted-foreground: 220 20% 50%;
+    --muted: 155 20% 96%;
+    --muted-foreground: 155 20% 50%;
 
-    --accent: 174 72% 56%;
+    --accent: 75 65% 55%;
     --accent-foreground: 0 0% 100%;
 
-    /* Financial theme colors */
-    --navy: 220 40% 20%;
-    --navy-light: 220 30% 30%;
-    --teal: 174 72% 56%;
-    --teal-light: 174 50% 70%;
+    /* Attivita Ricco theme colors */
+    --dark-green: 155 100% 25%;
+    --light-green: 75 65% 55%;
     --success: 142 76% 36%;
     --warning: 48 96% 53%;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(221 83% 53%), hsl(174 72% 56%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 40% 20%), hsl(221 83% 53%));
+    --gradient-primary: linear-gradient(135deg, hsl(155 100% 25%), hsl(75 65% 55%));
+    --gradient-hero: linear-gradient(135deg, hsl(155 100% 15%), hsl(155 100% 25%));
 
     /* Shadows */
-    --shadow-soft: 0 4px 6px -1px hsl(220 40% 20% / 0.1);
-    --shadow-medium: 0 10px 15px -3px hsl(220 40% 20% / 0.1);
-    --shadow-strong: 0 25px 50px -12px hsl(220 40% 20% / 0.25);
+    --shadow-soft: 0 4px 6px -1px hsl(155 100% 15% / 0.1);
+    --shadow-medium: 0 10px 15px -3px hsl(155 100% 15% / 0.1);
+    --shadow-strong: 0 25px 50px -12px hsl(155 100% 15% / 0.25);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -56,19 +55,12 @@ All colors MUST be HSL.
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 

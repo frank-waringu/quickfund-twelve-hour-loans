@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone, Mail } from "lucide-react";
@@ -20,20 +21,20 @@ const Navigation = () => {
   return (
     <>
       {/* Top Contact Bar */}
-      <div className="bg-navy text-white py-2 text-sm">
+      <div className="bg-dark-green text-white py-2 text-sm">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-2">
               <Phone size={14} />
-              <span>+1 (555) 123-4567</span>
+              <span>+254738810000</span>
             </div>
             <div className="flex items-center space-x-2">
               <Mail size={14} />
-              <span>info@quickfundcapital.com</span>
+              <span>info@attivitaricco.com</span>
             </div>
           </div>
           <div className="text-xs">
-            Business Hours: Mon-Fri 8AM-6PM EST
+            Business Hours: Mon-Fri 8AM-6PM EAT
           </div>
         </div>
       </div>
@@ -43,14 +44,12 @@ const Navigation = () => {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">QF</span>
-              </div>
-              <div>
-                <div className="font-bold text-xl text-navy">QuickFund</div>
-                <div className="text-sm text-teal">Capital</div>
-              </div>
+            <Link to="/" className="flex items-center space-x-3">
+              <img 
+                src="/lovable-uploads/146ed7e0-1423-4af5-a6b1-6be6225c0c3f.png" 
+                alt="Attivita Ricco Limited" 
+                className="h-12 w-auto"
+              />
             </Link>
 
             {/* Desktop Navigation */}
@@ -62,7 +61,7 @@ const Navigation = () => {
                   className={`font-medium transition-colors ${
                     isActive(item.href)
                       ? "text-primary border-b-2 border-primary"
-                      : "text-navy hover:text-primary"
+                      : "text-dark-green hover:text-primary"
                   }`}
                 >
                   {item.label}
@@ -79,9 +78,9 @@ const Navigation = () => {
               onClick={() => setIsOpen(!isOpen)}
             >
               {isOpen ? (
-                <X className="h-6 w-6 text-navy" />
+                <X className="h-6 w-6 text-dark-green" />
               ) : (
-                <Menu className="h-6 w-6 text-navy" />
+                <Menu className="h-6 w-6 text-dark-green" />
               )}
             </button>
           </div>
@@ -95,7 +94,7 @@ const Navigation = () => {
                     key={item.href}
                     to={item.href}
                     className={`font-medium ${
-                      isActive(item.href) ? "text-primary" : "text-navy"
+                      isActive(item.href) ? "text-primary" : "text-dark-green"
                     }`}
                     onClick={() => setIsOpen(false)}
                   >

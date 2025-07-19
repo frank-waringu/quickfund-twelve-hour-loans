@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -62,14 +63,8 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				navy: {
-					DEFAULT: 'hsl(var(--navy))',
-					light: 'hsl(var(--navy-light))'
-				},
-				teal: {
-					DEFAULT: 'hsl(var(--teal))',
-					light: 'hsl(var(--teal-light))'
-				},
+				'dark-green': 'hsl(var(--dark-green))',
+				'light-green': 'hsl(var(--light-green))',
 				success: 'hsl(var(--success))',
 				warning: 'hsl(var(--warning))'
 			},
