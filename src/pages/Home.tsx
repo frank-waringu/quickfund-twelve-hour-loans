@@ -37,7 +37,7 @@ const Home = () => {
     {
       name: "Sarah Johnson",
       business: "Tech Startup",
-      content: "QuickFund helped me expand my business when traditional banks said no. The 12-hour approval saved my opportunity!",
+      content: "Attivita Ricco helped me expand my business when traditional banks said no. The 12-hour approval saved my opportunity!",
       rating: 5
     },
     {
@@ -49,7 +49,7 @@ const Home = () => {
     {
       name: "Lisa Rodriguez",
       business: "Retail Chain",
-      content: "The flexibility and speed of QuickFund's loan process is unmatched. Highly recommended!",
+      content: "The flexibility and speed of Attivita Ricco's loan process is unmatched. Highly recommended!",
       rating: 5
     }
   ];
@@ -115,7 +115,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
-              Why Choose QuickFund Capital?
+              Why Choose Attivita Ricco Ltd?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               We understand that time is money in business. That's why we've revolutionized 
@@ -169,7 +169,7 @@ const Home = () => {
               What Our Clients Say
             </h2>
             <p className="text-xl text-gray-600">
-              Join thousands of satisfied business owners who trust QuickFund Capital
+              Join thousands of satisfied business owners who trust Attivita Ricco Ltd
             </p>
           </div>
           
@@ -240,7 +240,7 @@ const Home = () => {
             Ready to Grow Your Business?
           </h2>
           <p className="text-xl mb-8 text-gray-200">
-            Join thousands of successful businesses that chose QuickFund Capital
+            Join thousands of successful businesses that chose Attivita Ricco Ltd
           </p>
           <Button 
             asChild 

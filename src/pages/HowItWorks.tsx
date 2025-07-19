@@ -289,7 +289,7 @@ const HowItWorks = () => {
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
-                QuickFund vs Traditional Banks
+                Attivita Ricco vs Traditional Banks
               </h2>
               <p className="text-xl text-gray-600">
                 See the difference in timing and requirements
@@ -304,7 +304,7 @@ const HowItWorks = () => {
                     <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
                       <span className="text-white font-bold text-xl">QF</span>
                     </div>
-                    <h3 className="text-xl font-bold text-navy">QuickFund Capital</h3>
+                    <h3 className="text-xl font-bold text-navy">Attivita Ricco Ltd</h3>
                   </div>
                   
                   <div className="space-y-4">

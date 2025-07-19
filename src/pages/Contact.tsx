@@ -66,7 +66,7 @@ const Contact = () => {
       icon: Mail,
       title: "Email Support",
       description: "Send us your questions anytime",
-      detail: "info@quickfundcapital.com",
+      detail: "info@attivitaricco.com",
       hours: "24/7 Response"
     },
     {
@@ -104,19 +104,19 @@ const Contact = () => {
       icon: Building,
       title: "New Applications",
       description: "Questions about loan applications",
-      email: "apply@quickfundcapital.com"
+      email: "apply@attivitaricco.com"
     },
     {
       icon: Users,
       title: "Customer Service",
       description: "General inquiries and support",
-      email: "support@quickfundcapital.com"
+      email: "support@attivitaricco.com"
     },
     {
       icon: HeadphonesIcon,
       title: "Technical Support",
       description: "Website and portal assistance",
-      email: "tech@quickfundcapital.com"
+      email: "tech@attivitaricco.com"
     }
   ];
 
@@ -366,7 +366,7 @@ const Contact = () => {
                   <div className="text-center">
                     <MapPin className="h-12 w-12 text-gray-400 mx-auto mb-4" />
                     <p className="text-gray-500">Interactive Map</p>
-                    <p className="text-sm text-gray-400">Find the nearest QuickFund location</p>
+                    <p className="text-sm text-gray-400">Find the nearest Attivita Ricco location</p>
                   </div>
                 </div>
               </CardContent>

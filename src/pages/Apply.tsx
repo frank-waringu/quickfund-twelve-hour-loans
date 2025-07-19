@@ -348,7 +348,7 @@ const Apply = () => {
                       />
                       <Label htmlFor="terms" className="text-sm">
                         I agree to the <a href="#" className="text-primary hover:underline">Terms of Service</a> and 
-                        authorize QuickFund Capital to verify the information provided.
+                        authorize Attivita Ricco Ltd to verify the information provided.
                       </Label>
                     </div>
                     <div className="flex items-start space-x-3">
@@ -382,7 +382,7 @@ const Apply = () => {
             <Card className="shadow-medium">
               <CardContent className="p-6">
                 <h3 className="text-lg font-semibold text-navy mb-4">
-                  Why Apply with QuickFund?
+                  Why Apply with Attivita Ricco?
                 </h3>
                 <div className="space-y-4">
                   {features.map((feature, index) => (
@@ -413,7 +413,7 @@ const Apply = () => {
                   </div>
                   <div className="flex items-center space-x-2">
                     <Mail className="h-4 w-4 text-primary" />
-                    <span className="text-sm">apply@quickfundcapital.com</span>
+                    <span className="text-sm">apply@attivitaricco.com</span>
                   </div>
                   <p className="text-xs text-gray-500 mt-4">
                     Our loan specialists are available Mon-Fri 8AM-6PM EST 

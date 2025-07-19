@@ -54,7 +54,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <Badge className="mb-6 bg-teal text-white">
-              About QuickFund Capital
+              About Attivita Ricco Ltd
             </Badge>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Empowering Business Growth Since 2019
@@ -143,13 +143,13 @@ const About = () => {
 
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <img src={teamPhoto} alt="QuickFund Capital Team" className="rounded-lg shadow-medium w-full" />
+                <img src={teamPhoto} alt="Attivita Ricco Ltd Team" className="rounded-lg shadow-medium w-full" />
               </div>
               
               <div className="space-y-6">
                 <p className="text-gray-600 leading-relaxed">
-                  QuickFund Capital was founded in 2019 by a team of financial services 
-                  veterans who experienced firsthand the frustrations of traditional business 
+                  Attivita Ricco Ltd was founded in 2019 by a team of financial services 
+                  veterans who experienced firsthand the frustrations of traditional business
                   lending. After watching countless deserving businesses struggle with 
                   months-long approval processes and excessive paperwork, we knew there 
                   had to be a better way.
@@ -212,7 +212,7 @@ const About = () => {
       <section className="py-20 bg-gradient-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Ready to Experience the QuickFund Difference?
+            Ready to Experience the Attivita Ricco Difference?
           </h2>
           <p className="text-xl mb-8 text-gray-200">
             Join the thousands of businesses that trust us with their growth
