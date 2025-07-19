@@ -2,69 +2,53 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { 
-  Target, 
-  Eye, 
-  Heart, 
-  TrendingUp, 
-  Users, 
-  Award,
-  Clock,
-  DollarSign
-} from "lucide-react";
+import { Target, Eye, Heart, TrendingUp, Users, Award, Clock, DollarSign } from "lucide-react";
 import teamPhoto from "@/assets/team-photo.jpg";
-
 const About = () => {
-  const values = [
-    {
-      icon: Clock,
-      title: "Speed",
-      description: "We believe time is your most valuable asset. Our 12-hour approval process ensures you never miss an opportunity."
-    },
-    {
-      icon: Heart,
-      title: "Integrity",
-      description: "Transparent terms, honest communication, and ethical lending practices form the foundation of every relationship."
-    },
-    {
-      icon: Users,
-      title: "Partnership",
-      description: "We're not just lenders - we're partners in your success, providing support beyond just capital."
-    },
-    {
-      icon: Award,
-      title: "Excellence",
-      description: "Continuous innovation and improvement in our services to exceed client expectations every time."
-    }
-  ];
-
-  const stats = [
-    { number: "$50M+", label: "Total Loans Disbursed" },
-    { number: "2,500+", label: "Businesses Funded" },
-    { number: "98%", label: "Client Satisfaction" },
-    { number: "12", label: "Average Hours to Approval" }
-  ];
-
-  const teamMembers = [
-    {
-      name: "Sarah Mitchell",
-      role: "CEO & Founder",
-      bio: "15+ years in financial services, former VP at Goldman Sachs"
-    },
-    {
-      name: "David Chen",
-      role: "Chief Technology Officer",
-      bio: "Former tech lead at fintech unicorns, MIT graduate"
-    },
-    {
-      name: "Maria Rodriguez",
-      role: "Head of Lending",
-      bio: "20+ years in commercial lending, expert in risk assessment"
-    }
-  ];
-
-  return (
-    <div className="min-h-screen">
+  const values = [{
+    icon: Clock,
+    title: "Speed",
+    description: "We believe time is your most valuable asset. Our 12-hour approval process ensures you never miss an opportunity."
+  }, {
+    icon: Heart,
+    title: "Integrity",
+    description: "Transparent terms, honest communication, and ethical lending practices form the foundation of every relationship."
+  }, {
+    icon: Users,
+    title: "Partnership",
+    description: "We're not just lenders - we're partners in your success, providing support beyond just capital."
+  }, {
+    icon: Award,
+    title: "Excellence",
+    description: "Continuous innovation and improvement in our services to exceed client expectations every time."
+  }];
+  const stats = [{
+    number: "$50M+",
+    label: "Total Loans Disbursed"
+  }, {
+    number: "2,500+",
+    label: "Businesses Funded"
+  }, {
+    number: "98%",
+    label: "Client Satisfaction"
+  }, {
+    number: "12",
+    label: "Average Hours to Approval"
+  }];
+  const teamMembers = [{
+    name: "Sarah Mitchell",
+    role: "CEO & Founder",
+    bio: "15+ years in financial services, former VP at Goldman Sachs"
+  }, {
+    name: "David Chen",
+    role: "Chief Technology Officer",
+    bio: "Former tech lead at fintech unicorns, MIT graduate"
+  }, {
+    name: "Maria Rodriguez",
+    role: "Head of Lending",
+    bio: "20+ years in commercial lending, expert in risk assessment"
+  }];
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-20 bg-gradient-hero text-white">
         <div className="container mx-auto px-4">
@@ -132,16 +116,14 @@ const About = () => {
 
           {/* Stats Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            {stats.map((stat, index) => (
-              <div key={index}>
+            {stats.map((stat, index) => <div key={index}>
                 <div className="text-3xl md:text-4xl font-bold text-primary mb-2">
                   {stat.number}
                 </div>
                 <div className="text-gray-600">
                   {stat.label}
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </section>
@@ -161,11 +143,7 @@ const About = () => {
 
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <img 
-                  src={teamPhoto} 
-                  alt="QuickFund Capital Team" 
-                  className="rounded-lg shadow-medium w-full"
-                />
+                <img src={teamPhoto} alt="QuickFund Capital Team" className="rounded-lg shadow-medium w-full" />
               </div>
               
               <div className="space-y-6">
@@ -208,8 +186,7 @@ const About = () => {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {values.map((value, index) => (
-              <Card key={index} className="text-center p-6 shadow-medium hover:shadow-strong transition-shadow">
+            {values.map((value, index) => <Card key={index} className="text-center p-6 shadow-medium hover:shadow-strong transition-shadow">
                 <CardContent className="pt-6">
                   <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
                     <value.icon className="h-6 w-6 text-white" />
@@ -221,45 +198,14 @@ const About = () => {
                     {value.description}
                   </p>
                 </CardContent>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
 
       {/* Leadership Team */}
       <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">
-              Leadership Team
-            </h2>
-            <p className="text-xl text-gray-600">
-              Experienced leaders driving innovation in business lending
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {teamMembers.map((member, index) => (
-              <Card key={index} className="text-center p-6 shadow-medium">
-                <CardContent className="pt-6">
-                  <div className="w-20 h-20 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <Users className="h-10 w-10 text-white" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-navy mb-1">
-                    {member.name}
-                  </h3>
-                  <p className="text-primary font-medium mb-3">
-                    {member.role}
-                  </p>
-                  <p className="text-gray-600 text-sm">
-                    {member.bio}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
+        
       </section>
 
       {/* CTA Section */}
@@ -271,17 +217,11 @@ const About = () => {
           <p className="text-xl mb-8 text-gray-200">
             Join the thousands of businesses that trust us with their growth
           </p>
-          <Button 
-            asChild 
-            size="lg" 
-            className="bg-white text-primary hover:bg-gray-100 text-lg px-8 py-4"
-          >
+          <Button asChild size="lg" className="bg-white text-primary hover:bg-gray-100 text-lg px-8 py-4">
             <Link to="/apply">Apply for Your Loan Today</Link>
           </Button>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default About;
