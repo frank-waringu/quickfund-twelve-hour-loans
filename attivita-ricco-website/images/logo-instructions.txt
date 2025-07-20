@@ -1,0 +1,22 @@
+ATTIVITA RICCO LOGO PLACEMENT
+
+Please save your provided logo as "logo.png" in this images folder.
+
+Your logo features:
+- Beautiful green gradient (A and R letters)
+- "Attivita Ricco" text in green
+- "Growing Your Dreams" tagline in light green
+- Professional, modern design
+
+Recommended format:
+- PNG with transparent background
+- Size: 200px width x 80px height (or maintain aspect ratio)
+- High resolution for crisp display
+
+The website theme colors have been updated to match your logo:
+- Primary Green: #228B22 (Forest Green)
+- Dark Green: #006400 (Dark Green)
+- Light Green: #32CD32 (Lime Green)
+- Accent: #9ACD32 (Yellow Green)
+
+After adding the logo file, delete this instruction file.

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now - Attivita Ricco Limited</title>
+    <meta name="description" content="Apply for a business loan with Attivita Ricco Limited. Get approved in 12 hours. Simple application process with minimal requirements.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Attivita Ricco Limited" class="logo">
+                <span class="logo-text">Attivita Ricco Limited</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="loans.html" class="nav-link">Business Loans</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="apply.html" class="nav-link cta-button active">Apply Now</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="apply-header">
+        <div class="container">
+            <h1>Apply for Business Loan</h1>
+            <p class="page-subtitle">Get approved in 12 hours with our simple application process</p>
+            <div class="apply-features">
+                <div class="apply-feature">
+                    <span class="feature-icon">⚡</span>
+                    <span>12-Hour Approval</span>
+                </div>
+                <div class="apply-feature">
+                    <span class="feature-icon">📋</span>
+                    <span>Simple Requirements</span>
+                </div>
+                <div class="apply-feature">
+                    <span class="feature-icon">🔒</span>
+                    <span>Secure Process</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="application-form-section">
+        <div class="container">
+            <div class="form-container">
+                <div class="form-header">
+                    <h2>Business Loan Application</h2>
+                    <p>Complete this form to apply for your business loan. All fields marked with * are required.</p>
+                </div>
+
+                <form class="application-form" id="loanApplicationForm" enctype="multipart/form-data">
+                    
+                    <!-- Personal Information -->
+                    <div class="form-section">
+                        <h3 class="section-title">
+                            <span class="section-number">1</span>
+                            Personal Information
+                        </h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">Full Name *</label>
+                                <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name as on National ID">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="idNumber">National ID Number *</label>
+                                <input type="text" id="idNumber" name="idNumber" required placeholder="Enter your National ID number">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phoneNumber">Phone Number *</label>
+                                <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="+254 7XX XXX XXX">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="dateOfBirth">Date of Birth *</label>
+                                <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="gender">Gender *</label>
+                                <select id="gender" name="gender" required>
+                                    <option value="">Select gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="address">Residential Address *</label>
+                            <textarea id="address" name="address" rows="3" required placeholder="Enter your full residential address"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Business Information -->
+                    <div class="form-section">
+                        <h3 class="section-title">
+                            <span class="section-number">2</span>
+                            Business Information
+                        </h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="businessName">Business Name *</label>
+                                <input type="text" id="businessName" name="businessName" required placeholder="Enter your business name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="businessType">Business Type *</label>
+                                <select id="businessType" name="businessType" required>
+                                    <option value="">Select business type</option>
+                                    <option value="retail">Retail Trade</option>
+                                    <option value="wholesale">Wholesale Trade</option>
+                                    <option value="manufacturing">Manufacturing</option>
+                                    <option value="services">Services</option>
+                                    <option value="agriculture">Agriculture</option>
+                                    <option value="technology">Technology</option>
+                                    <option value="construction">Construction</option>
+                                    <option value="transport">Transport</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="businessRegistration">Business Registration Status *</label>
+                                <select id="businessRegistration" name="businessRegistration" required>
+                                    <option value="">Select status</option>
+                                    <option value="registered">Registered</option>
+                                    <option value="not-registered">Not Registered</option>
+                                    <option value="in-progress">Registration In Progress</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="yearsInBusiness">Years in Business *</label>
+                                <select id="yearsInBusiness" name="yearsInBusiness" required>
+                                    <option value="">Select duration</option>
+                                    <option value="less-than-1">Less than 1 year</option>
+                                    <option value="1-2">1-2 years</option>
+                                    <option value="3-5">3-5 years</option>
+                                    <option value="5-10">5-10 years</option>
+                                    <option value="more-than-10">More than 10 years</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="businessDescription">Business Description *</label>
+                            <textarea id="businessDescription" name="businessDescription" rows="4" required placeholder="Describe what your business does and how you plan to use the loan"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="businessAddress">Business Address *</label>
+                            <textarea id="businessAddress" name="businessAddress" rows="3" required placeholder="Enter your business address"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Loan Information -->
+                    <div class="form-section">
+                        <h3 class="section-title">
+                            <span class="section-number">3</span>
+                            Loan Information
+                        </h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="loanAmount">Loan Amount Requested (KES) *</label>
+                                <input type="number" id="loanAmount" name="loanAmount" required min="50000" max="5000000" placeholder="50,000 - 5,000,000">
+                                <small>Minimum: KES 50,000 | Maximum: KES 5,000,000</small>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="loanPurpose">Loan Purpose *</label>
+                                <select id="loanPurpose" name="loanPurpose" required>
+                                    <option value="">Select purpose</option>
+                                    <option value="working-capital">Working Capital</option>
+                                    <option value="equipment">Equipment Purchase</option>
+                                    <option value="inventory">Inventory/Stock</option>
+                                    <option value="expansion">Business Expansion</option>
+                                    <option value="renovation">Renovation/Improvement</option>
+                                    <option value="emergency">Emergency/Urgent Need</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="monthlyIncome">Monthly Business Income (KES) *</label>
+                                <input type="number" id="monthlyIncome" name="monthlyIncome" required min="0" placeholder="Enter average monthly income">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="preferredTerm">Preferred Loan Term *</label>
+                                <select id="preferredTerm" name="preferredTerm" required>
+                                    <option value="">Select term</option>
+                                    <option value="6-months">6 Months</option>
+                                    <option value="12-months">12 Months</option>
+                                    <option value="18-months">18 Months</option>
+                                    <option value="24-months">24 Months</option>
+                                    <option value="36-months">36 Months</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Guarantor Information -->
+                    <div class="form-section">
+                        <h3 class="section-title">
+                            <span class="section-number">4</span>
+                            Guarantor Information
+                        </h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="guarantorName">Guarantor Full Name *</label>
+                                <input type="text" id="guarantorName" name="guarantorName" required placeholder="Enter guarantor's full name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="guarantorId">Guarantor ID Number *</label>
+                                <input type="text" id="guarantorId" name="guarantorId" required placeholder="Enter guarantor's National ID">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="guarantorPhone">Guarantor Phone Number *</label>
+                                <input type="tel" id="guarantorPhone" name="guarantorPhone" required placeholder="+254 7XX XXX XXX">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="guarantorRelationship">Relationship to Guarantor *</label>
+                                <select id="guarantorRelationship" name="guarantorRelationship" required>
+                                    <option value="">Select relationship</option>
+                                    <option value="spouse">Spouse</option>
+                                    <option value="parent">Parent</option>
+                                    <option value="sibling">Sibling</option>
+                                    <option value="friend">Friend</option>
+                                    <option value="business-partner">Business Partner</option>
+                                    <option value="other-family">Other Family Member</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="guarantorAddress">Guarantor Address *</label>
+                            <textarea id="guarantorAddress" name="guarantorAddress" rows="3" required placeholder="Enter guarantor's address"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Document Uploads -->
+                    <div class="form-section">
+                        <h3 class="section-title">
+                            <span class="section-number">5</span>
+                            Required Documents
+                        </h3>
+                        
+                        <div class="upload-instructions">
+                            <p>Please upload the following required documents. Ensure all images are clear and readable.</p>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group file-upload-group">
+                                <label for="nationalId">National ID (Front & Back) *</label>
+                                <input type="file" id="nationalId" name="nationalId" required accept="image/*,.pdf" multiple>
+                                <small>Upload both sides of your National ID (JPEG, PNG, or PDF)</small>
+                            </div>
+                            
+                            <div class="form-group file-upload-group">
+                                <label for="passportPhoto">Passport Photo *</label>
+                                <input type="file" id="passportPhoto" name="passportPhoto" required accept="image/*">
+                                <small>Recent passport-size photo (JPEG or PNG)</small>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group file-upload-group">
+                                <label for="guarantorId">Guarantor's National ID *</label>
+                                <input type="file" id="guarantorIdUpload" name="guarantorIdUpload" required accept="image/*,.pdf" multiple>
+                                <small>Upload both sides of guarantor's National ID</small>
+                            </div>
+                            
+                            <div class="form-group file-upload-group">
+                                <label for="additionalDocs">Additional Documents (Optional)</label>
+                                <input type="file" id="additionalDocs" name="additionalDocs" accept="image/*,.pdf" multiple>
+                                <small>Business certificate, bank statements, etc. (Optional)</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Terms and Conditions -->
+                    <div class="form-section">
+                        <h3 class="section-title">
+                            <span class="section-number">6</span>
+                            Terms and Conditions
+                        </h3>
+                        
+                        <div class="terms-container">
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="termsAccept" name="termsAccept" required>
+                                <label for="termsAccept">
+                                    I agree to the <a href="#" target="_blank">Terms and Conditions</a> and <a href="#" target="_blank">Privacy Policy</a> *
+                                </label>
+                            </div>
+                            
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="dataConsent" name="dataConsent" required>
+                                <label for="dataConsent">
+                                    I consent to the processing of my personal data for loan assessment purposes *
+                                </label>
+                            </div>
+                            
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="guarantorConsent" name="guarantorConsent" required>
+                                <label for="guarantorConsent">
+                                    I confirm that my guarantor has consented to provide guarantee for this loan *
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="form-submit">
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Submit Application</span>
+                            <span class="btn-loading">Processing...</span>
+                        </button>
+                        <p class="submit-note">After submission, we'll review your application and get back to you within 12 hours.</p>
+                    </div>
+                </form>
+
+                <!-- Success Message -->
+                <div class="application-success" id="applicationSuccess">
+                    <div class="success-content">
+                        <div class="success-icon">✅</div>
+                        <h2>Application Submitted Successfully!</h2>
+                        <p class="success-message">
+                            Thank you for applying for a business loan with Attivita Ricco Limited. 
+                            We have received your application and will review it promptly.
+                        </p>
+                        <div class="success-details">
+                            <h3>What happens next?</h3>
+                            <ul>
+                                <li>Our team will review your application within 12 hours</li>
+                                <li>We'll verify your documents and contact your guarantor</li>
+                                <li>You'll receive an approval decision via email and SMS</li>
+                                <li>Upon approval, funds will be disbursed to your account</li>
+                            </ul>
+                        </div>
+                        <div class="success-contact">
+                            <p><strong>Questions?</strong> Call us at <a href="tel:+254738810000">+254 738 810000</a></p>
+                        </div>
+                        <div class="success-actions">
+                            <a href="index.html" class="btn-secondary">Return to Home</a>
+                            <a href="contact.html" class="cta-primary">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Attivita Ricco Limited" class="logo">
+                        <span class="logo-text">Attivita Ricco Limited</span>
+                    </div>
+                    <p>Empowering Kenyan businesses with fast, reliable financial solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="loans.html">Business Loans</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><strong>Phone:</strong> +254 738 810000</p>
+                    <p><strong>Email:</strong> info@attivitar.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">💼</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Attivita Ricco Limited. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

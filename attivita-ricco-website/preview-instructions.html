@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attivita Ricco Website Preview</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #f0fff0 0%, #ffffff 100%);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .logo-placeholder {
+            width: 200px;
+            height: 80px;
+            background: linear-gradient(135deg, #228B22, #32CD32);
+            margin: 0 auto 20px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .tagline {
+            color: #228B22;
+            font-style: italic;
+            margin-top: 10px;
+        }
+        .pages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .page-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .page-card:hover {
+            transform: translateY(-5px);
+        }
+        .page-link {
+            display: inline-block;
+            background: linear-gradient(135deg, #228B22, #32CD32);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: all 0.3s ease;
+        }
+        .page-link:hover {
+            background: linear-gradient(135deg, #006400, #228B22);
+            transform: translateY(-2px);
+        }
+        .setup-section {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .setup-section h2 {
+            color: #228B22;
+            border-bottom: 2px solid #228B22;
+            padding-bottom: 10px;
+        }
+        .step {
+            background: #f0fff0;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #228B22;
+            border-radius: 5px;
+        }
+        .colors {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .color-box {
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-placeholder">AR</div>
+        <h1>Attivita Ricco Limited Website</h1>
+        <p class="tagline">Growing Your Dreams</p>
+        <p>Professional Financial Services Website</p>
+    </div>
+
+    <div class="setup-section">
+        <h2>🚀 How to Preview Your Website</h2>
+        
+        <div class="step">
+            <strong>Option 1: Direct File Opening</strong><br>
+            Simply double-click on any HTML file below to open it in your web browser.
+        </div>
+        
+        <div class="step">
+            <strong>Option 2: Live Server (Recommended)</strong><br>
+            Use a local server for the best experience:
+            <br>• If you have VS Code: Install "Live Server" extension and right-click index.html → "Open with Live Server"
+            <br>• If you have Python: Run <code>python -m http.server 8000</code> in the website folder
+            <br>• If you have Node.js: Run <code>npx http-server</code> in the website folder
+        </div>
+    </div>
+
+    <div class="setup-section">
+        <h2>📱 Website Pages</h2>
+        <p>Click on any page below to preview it:</p>
+        
+        <div class="pages-grid">
+            <div class="page-card">
+                <h3>🏠 Home Page</h3>
+                <p>Hero section with 12-hour loan promise, company intro, and call-to-action</p>
+                <a href="index.html" class="page-link">View Home Page</a>
+            </div>
+            
+            <div class="page-card">
+                <h3>ℹ️ About Us</h3>
+                <p>Company background, mission, vision, and why choose us</p>
+                <a href="about.html" class="page-link">View About Page</a>
+            </div>
+            
+            <div class="page-card">
+                <h3>💰 Business Loans</h3>
+                <p>Loan features, process, requirements, and FAQs</p>
+                <a href="loans.html" class="page-link">View Loans Page</a>
+            </div>
+            
+            <div class="page-card">
+                <h3>📞 Contact</h3>
+                <p>Contact information, form, and location map</p>
+                <a href="contact.html" class="page-link">View Contact Page</a>
+            </div>
+            
+            <div class="page-card">
+                <h3>📝 Apply Now</h3>
+                <p>Comprehensive loan application form</p>
+                <a href="apply.html" class="page-link">View Application</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="setup-section">
+        <h2>🎨 Updated Theme Colors</h2>
+        <p>The website colors have been updated to match your beautiful green logo:</p>
+        
+        <div class="colors">
+            <div class="color-box" style="background: #228B22">
+                Primary Green<br>#228B22
+            </div>
+            <div class="color-box" style="background: #006400">
+                Dark Green<br>#006400
+            </div>
+            <div class="color-box" style="background: #32CD32">
+                Light Green<br>#32CD32
+            </div>
+            <div class="color-box" style="background: #9ACD32">
+                Accent Green<br>#9ACD32
+            </div>
+        </div>
+    </div>
+
+    <div class="setup-section">
+        <h2>📍 Location Updated</h2>
+        <p><strong>New Address:</strong> Hurlingham Park, Argwings Kodhek Road, Nairobi</p>
+        <p>The Google Maps embed has been updated to show the Argwings Kodhek Road area.</p>
+    </div>
+
+    <div class="setup-section">
+        <h2>✅ Next Steps</h2>
+        
+        <div class="step">
+            <strong>1. Add Your Logo</strong><br>
+            Save your provided logo as "logo.png" in the images folder (PNG format with transparent background recommended).
+        </div>
+        
+        <div class="step">
+            <strong>2. Add Professional Images</strong><br>
+            Replace placeholder images with professional photos:
+            <br>• hero-business.jpg (1200x800px) - Professional business/financial scene
+            <br>• about-company.jpg (800x600px) - Office or team photo
+            <br>• team-*.jpg (400x400px) - Professional headshots or team photos
+        </div>
+        
+        <div class="step">
+            <strong>3. Upload to Hosting</strong><br>
+            Upload the entire folder to your web hosting provider's public_html directory.
+        </div>
+        
+        <div class="step">
+            <strong>4. Test Everything</strong><br>
+            Test all forms, navigation, and mobile responsiveness on your live site.
+        </div>
+    </div>
+
+    <div class="setup-section">
+        <h2>📞 Support</h2>
+        <p>Your website is ready to go live! All pages are fully functional, mobile-responsive, and optimized for the financial services industry.</p>
+        <p><strong>Features included:</strong> Contact forms, loan application, FAQ sections, mobile navigation, and professional design.</p>
+    </div>
+</body>
+</html>
