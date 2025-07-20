@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Attivita Ricco Limited</title>
+    <meta name="description" content="Contact Attivita Ricco Limited for business loan inquiries. Phone: +254 738 810000, Email: info@attivitar.com. Get in touch today.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Attivita Ricco Limited" class="logo">
+                <span class="logo-text">Attivita Ricco Limited</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="loans.html" class="nav-link">Business Loans</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="apply.html" class="nav-link cta-button">Apply Now</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p class="page-subtitle">Get in touch with our team for personalized assistance</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3>Phone</h3>
+                        <p>Call us for immediate assistance</p>
+                        <a href="tel:+254738810000" class="contact-link">+254 738 810000</a>
+                        <span class="contact-hours">Available 24/7</span>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">✉️</div>
+                        <h3>Email</h3>
+                        <p>Send us your inquiries</p>
+                        <a href="mailto:info@attivitar.com" class="contact-link">info@attivitar.com</a>
+                        <span class="contact-hours">Response within 2 hours</span>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>Location</h3>
+                        <p>Visit our offices</p>
+                        <span class="contact-link">Nairobi, Kenya</span>
+                        <span class="contact-hours">Mon-Fri: 8AM-6PM</span>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">⚡</div>
+                        <h3>Quick Response</h3>
+                        <p>Fast turnaround time</p>
+                        <span class="contact-link">12-Hour Guarantee</span>
+                        <span class="contact-hours">For loan applications</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form and Map -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-map-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <p>Have questions about our loan services? Fill out the form below and we'll get back to you within 2 hours.</p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="loan-inquiry">Loan Inquiry</option>
+                                <option value="application-status">Application Status</option>
+                                <option value="general-question">General Question</option>
+                                <option value="technical-support">Technical Support</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Please provide details about your inquiry..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="form-submit-btn">Send Message</button>
+                    </form>
+                    
+                    <!-- Success Message -->
+                    <div class="form-success" id="formSuccess">
+                        <div class="success-icon">✅</div>
+                        <h3>Message Sent Successfully!</h3>
+                        <p>Thank you for contacting us. We'll get back to you within 2 hours.</p>
+                    </div>
+                </div>
+
+                <!-- Map Container -->
+                <div class="map-container">
+                    <h3>Our Location</h3>
+                    <div class="map-placeholder">
+                        <!-- Google Maps Iframe (Optional - can be replaced with actual Google Maps embed) -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35890315355!2d36.682888985791085!3d-1.303209780894733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2s!4v1635784847397!5m2!1sen!2s" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                    <div class="office-info">
+                        <h4>Attivita Ricco Limited</h4>
+                        <p>📍 Nairobi, Kenya</p>
+                        <p>📞 +254 738 810000</p>
+                        <p>✉️ info@attivitar.com</p>
+                        <p>🕒 Monday - Friday: 8:00 AM - 6:00 PM</p>
+                        <p>🕒 Saturday: 9:00 AM - 2:00 PM</p>
+                        <p>🕒 Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Quick Links -->
+    <section class="contact-faq">
+        <div class="container">
+            <h2>Quick Answers</h2>
+            <p>Looking for quick answers? Check out these frequently asked questions:</p>
+            <div class="quick-faq">
+                <div class="faq-quick-item">
+                    <h3>How long does loan approval take?</h3>
+                    <p>We guarantee approval within 12 hours of receiving your complete application.</p>
+                </div>
+                <div class="faq-quick-item">
+                    <h3>What documents do I need?</h3>
+                    <p>Just your National ID, guarantor details, and a passport photo.</p>
+                </div>
+                <div class="faq-quick-item">
+                    <h3>What loan amounts are available?</h3>
+                    <p>We offer loans from KES 50,000 to KES 5,000,000.</p>
+                </div>
+                <div class="faq-quick-item">
+                    <h3>Can I apply online?</h3>
+                    <p>Yes! Our online application process is quick and secure.</p>
+                </div>
+            </div>
+            <div class="faq-link">
+                <a href="loans.html#faqs" class="btn-secondary">View All FAQs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="contact-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Apply for a Business Loan?</h2>
+                <p>Don't wait! Start your application now and get approved in just 12 hours.</p>
+                <div class="cta-buttons">
+                    <a href="apply.html" class="cta-primary">Start Application</a>
+                    <a href="tel:+254738810000" class="btn-secondary">Call Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Attivita Ricco Limited" class="logo">
+                        <span class="logo-text">Attivita Ricco Limited</span>
+                    </div>
+                    <p>Empowering Kenyan businesses with fast, reliable financial solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="loans.html">Business Loans</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><strong>Phone:</strong> +254 738 810000</p>
+                    <p><strong>Email:</strong> info@attivitar.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">💼</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Attivita Ricco Limited. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

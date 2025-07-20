@@ -1,0 +1,19 @@
+PLACEHOLDER IMAGES REQUIRED
+
+Please replace these placeholder files with actual images:
+
+1. logo.png (200x80px) - Company logo with transparent background
+2. hero-business.jpg (1200x800px) - Professional business/financial image for hero section
+3. about-company.jpg (800x600px) - Image representing the company/office
+4. team-ceo.jpg (400x400px) - Leadership team photo or professional business image
+5. team-loans.jpg (400x400px) - Loan officers or customer service team
+6. team-support.jpg (400x400px) - Support team or general business operations
+
+IMPORTANT NOTES:
+- All images should be optimized for web (compressed but high quality)
+- Use professional, business-appropriate images
+- Ensure images align with the financial services industry
+- Consider using images that represent Kenya/African business context
+- Logo should match the color scheme defined in CSS variables
+
+After adding images, delete this placeholder.txt file.
