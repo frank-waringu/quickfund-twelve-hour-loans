@@ -58,6 +58,24 @@ const Apply = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
+    // Validate required fields
+    const requiredFields = [
+      'firstName', 'lastName', 'email', 'phone',
+      'businessName', 'businessType', 'businessAddress', 'yearsInBusiness', 'monthlyRevenue',
+      'loanAmount', 'loanPurpose'
+    ];
+    
+    const missingFields = requiredFields.filter(field => !formData[field as keyof typeof formData]);
+    
+    if (missingFields.length > 0) {
+      toast({
+        title: "Missing Required Fields",
+        description: "Please fill out all required fields before submitting.",
+        variant: "destructive"
+      });
+      return;
+    }
+    
     if (!formData.termsAccepted || !formData.privacyAccepted) {
       toast({
         title: "Please accept terms",
@@ -347,7 +365,7 @@ const Apply = () => {
                         onCheckedChange={(checked) => handleInputChange("termsAccepted", checked as boolean)}
                       />
                       <Label htmlFor="terms" className="text-sm">
-                        I agree to the <a href="#" className="text-primary hover:underline">Terms of Service</a> and 
+                        I agree to the <a href="/terms" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Terms of Service</a> and 
                         authorize Attivita Ricco Ltd to verify the information provided.
                       </Label>
                     </div>
@@ -358,7 +376,7 @@ const Apply = () => {
                         onCheckedChange={(checked) => handleInputChange("privacyAccepted", checked as boolean)}
                       />
                       <Label htmlFor="privacy" className="text-sm">
-                        I agree to the <a href="#" className="text-primary hover:underline">Privacy Policy</a> and 
+                        I agree to the <a href="/privacy" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and 
                         consent to receive communications about my application.
                       </Label>
                     </div>
