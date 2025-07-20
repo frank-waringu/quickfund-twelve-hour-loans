@@ -6,12 +6,12 @@
 }
 
 :root {
-    /* Primary Colors - These will be customized based on logo */
-    --primary-color: #1e40af;
-    --primary-dark: #1e3a8a;
-    --primary-light: #3b82f6;
-    --accent-color: #f59e0b;
-    --accent-dark: #d97706;
+    /* Primary Colors - Based on Attivita Ricco logo */
+    --primary-color: #228B22;
+    --primary-dark: #006400;
+    --primary-light: #32CD32;
+    --accent-color: #9ACD32;
+    --accent-dark: #7CFC00;
     
     /* Neutral Colors */
     --white: #ffffff;

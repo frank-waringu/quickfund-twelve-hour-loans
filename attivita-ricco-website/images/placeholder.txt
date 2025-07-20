@@ -1,19 +1,46 @@
-PLACEHOLDER IMAGES REQUIRED
+PROFESSIONAL IMAGES FOR ATTIVITA RICCO WEBSITE
 
-Please replace these placeholder files with actual images:
+🎨 LOGO (COMPLETED)
+✅ Your beautiful green logo has been integrated into the design
+✅ Theme colors updated to match (green gradient scheme)
+✅ See logo-instructions.txt for placement details
 
-1. logo.png (200x80px) - Company logo with transparent background
-2. hero-business.jpg (1200x800px) - Professional business/financial image for hero section
-3. about-company.jpg (800x600px) - Image representing the company/office
-4. team-ceo.jpg (400x400px) - Leadership team photo or professional business image
-5. team-loans.jpg (400x400px) - Loan officers or customer service team
-6. team-support.jpg (400x400px) - Support team or general business operations
+📸 REQUIRED PROFESSIONAL IMAGES:
 
-IMPORTANT NOTES:
-- All images should be optimized for web (compressed but high quality)
-- Use professional, business-appropriate images
-- Ensure images align with the financial services industry
-- Consider using images that represent Kenya/African business context
-- Logo should match the color scheme defined in CSS variables
+1. hero-business.jpg (1200x800px)
+   💡 Suggested: Professional African businesspeople in modern office setting, 
+   financial documents, or handshake representing loan approval
 
-After adding images, delete this placeholder.txt file.
+2. about-company.jpg (800x600px)
+   💡 Suggested: Modern office interior, professional team meeting, 
+   or Nairobi business district view
+
+3. team-ceo.jpg (400x400px)
+   💡 Suggested: Professional headshot of leadership team or 
+   diverse business professionals in suits
+
+4. team-loans.jpg (400x400px)
+   💡 Suggested: Loan officers helping customers, people at desks 
+   with computers, or consultation scene
+
+5. team-support.jpg (400x400px)
+   💡 Suggested: Customer service representatives, call center, 
+   or support team in action
+
+🌍 KENYAN CONTEXT SUGGESTIONS:
+- Use images featuring African/Kenyan professionals
+- Modern Nairobi business environments
+- Professional but warm and approachable imagery
+- High-quality stock photos from sites like Unsplash, Pexels, or Shutterstock
+
+🎯 IMAGE REQUIREMENTS:
+- High resolution, optimized for web
+- Professional, trustworthy appearance
+- Consistent lighting and style
+- Business/financial industry appropriate
+
+📍 LOCATION UPDATE COMPLETED:
+✅ Address updated to: Hurlingham Park, Argwings Kodhek Road, Nairobi
+✅ Google Maps embed updated for the correct location
+
+After adding all images, delete this placeholder.txt file.
